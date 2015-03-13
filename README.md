@@ -1,6 +1,10 @@
 # Ipv6-Tunnel
 IPv6 tunneling on Windows &amp; Linux Using Hurrican Electric Tunnel Broker
 
+1. First you need to create an account on https://tunnelbroker.net <br>
+2. Then, Create a Tunnel point with your WAN IP (Public IP) with a nearest server location to your country.<br>
+3. Select Example configuration & Choose Your OS from the drop down list.<br>
+
 <h2> Script for Windows 7/8/8.1/2008/2012 </h2>
 
 netsh interface teredo set state disabled <br>
