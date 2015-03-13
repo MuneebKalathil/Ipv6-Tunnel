@@ -7,6 +7,8 @@
 
 <h2> Script for Windows 7/8/8.1/2008/2012 </h2>
 
+<b> Replace "...." with your IP Address
+
 netsh interface teredo set state disabled <br>
 netsh interface ipv6 add v6v4tunnel interface=IP6Tunnel "local_ip" "server_ipv4_address"<br>
 netsh interface ipv6 add address IP6Tunnel "client_ipv6_address"<br>
@@ -27,7 +29,12 @@ netsh interface ipv6 add route ::/0 IP6Tunnel 2001:470:18:69::1<br>
 <br>
 
 <b> Run the above the script on cmd as Administrator </b> <br>
-Allow icmpv6 packets on firewall <br>
-Control Panel -> System Security -> Windows Firewall
+<b> Allow icmpv6 packets on firewall</b> <br>
+<i> Control Panel -> System Security -> Windows Firewall
 Advanced Settings -> Inbound & Outboud Rules <br>
-----> File & Printer Sharing (Echo Request - ICMPv6In / ICMPv6Out) -> Right Click -> Enable Rule<br>
+----> File & Printer Sharing (Echo Request - ICMPv6In / ICMPv6Out) -> Right Click -> Enable Rule<br> </i>
+
+ping ipv6.google.com on cmd
+If it is success, You will get the reply.
+
+
