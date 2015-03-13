@@ -29,12 +29,5 @@ netsh interface ipv6 add route ::/0 IP6Tunnel 2001:470:18:69::1<br>
 <b> Run the above the script on cmd as Administrator </b> <br>
 Allow icmpv6 packets on firewall <br>
 Control Panel -> System Security -> Windows Firewall
-Advanced Settings<br>
-      |<br><br><br>
-      |<br><br>
-      V<br>
-      Inbound & Outboud Rules ----> File & Printer Sharing (Echo Request - ICMPv6In / ICMPv6Out)<br>
-                                                                                          |    <br>
-                                                                                          |<br>
-                                                                                          V<br>
-                                                                                      Right Click -> Enable Rule<br>
+Advanced Settings -> Inbound & Outboud Rules <br>
+----> File & Printer Sharing (Echo Request - ICMPv6In / ICMPv6Out) -> Right Click -> Enable Rule<br>
