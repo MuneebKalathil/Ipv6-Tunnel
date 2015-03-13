@@ -24,7 +24,9 @@ netsh interface teredo set state disabled <br>
 netsh interface ipv6 add v6v4tunnel interface=IP6Tunnel 192.168.1.3 216.218.221.6<br>
 netsh interface ipv6 add address IP6Tunnel 2001:470:18:69::2<br>
 netsh interface ipv6 add route ::/0 IP6Tunnel 2001:470:18:69::1<br>
+<br>
 
+<b> Run the above the script on cmd as Administrator </b> <br>
 
 
 
