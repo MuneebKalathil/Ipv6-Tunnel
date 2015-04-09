@@ -4,6 +4,7 @@
 1. First you need to create an account on https://tunnelbroker.net <br>
 2. Then, Create a Tunnel point with your WAN IP (Public IP) with a nearest server location to your country.<br>
 3. Select Example configuration & Choose Your OS from the drop down list.<br>
+<b>For Slides >> www.slideshare.net/slideshow/embed_code/46799026</b><br>
 
 <h2> Script for Ubuntu 12.04 or Greater </h2>
 <i>
